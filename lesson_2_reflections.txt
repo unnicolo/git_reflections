@@ -1,0 +1,28 @@
+**Udacity course - How to use Git and Github**
+
+**Lesson 2 reflections**
+
+Question: What happens when you initialize a repository?
+Why do you need to do it?
+
+When you initialize a repository with `git init' git will add a hidden folder
+named `.git' to the directory that now becomes a repository. This folder
+contains all the files that are needed to maintain the commit history.
+
+We need this so that we can keep track of the commit history. Otherwise it
+would be just a folder with some files in it. Git has to know that the its
+operations are supported.
+
+Question: How is the staging are different from the working directory and
+repository? What value do you think it offers?
+
+The staging area is the intermediate area between untracked files and tracked
+files. Its purpose is to have fine-grained control of which files will be
+present in a specific commit and which not. This allows to keep the changes
+of a commit logically seperate from other commits. 
+
+This concept offers great value because the user won't have to move files
+just to exclude/include them from/to a commit. Also, it encourages the user to
+think about how to structure the commit.
+
+

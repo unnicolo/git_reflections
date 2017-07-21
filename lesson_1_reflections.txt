@@ -1,0 +1,67 @@
+**Udacity course - How to use Git and Github**
+
+**Lesson 1 reflections**
+
+Question: How did viewing a diff between two versions of a file
+help you see the bug that was introduced?
+
+The time for comparing the two versions significantly reduced in comparison
+to comparing the two files by hand. Because of this the one who is doing
+the comparison has more motivation to find the bug since he is not slowed
+down and (possibly) frustrated by doing such a tedious and error-prone task
+over and over again. The person can only focus on what is important to
+the task of finding the bug.
+
+Typos are much more easily found since if two lines are identical but for
+misspelled word the user will ask himself why these particular lines are
+highlighted if they look similar.
+
+Question: How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+If the current version of a program doesn't work but a previous version
+did then we can use one of the previous versions to identify the reason
+why the current version has issues.
+
+You can always restore to the version that worked.
+
+Question: What do you think are the pros and cons of manually choosing when
+to create a commit like you do in Git, vs having versions automatically saved,
+like Google Docs does?
+
+Pro:
+
+The user can create his own system on when to save on changes.
+
+The documents won't be saved in the middle of a line which might cause that
+the program doesn't even run.
+
+Con:
+
+He might forget to commit regulary, resulting in a hard to read commit history.
+
+The user might create commit points that are not logically seperated which
+makes it harder for other people to identify errors.
+
+Question: How can you use the commands git log and git diff to view
+the history of files?
+
+`git log´ is used to get an overview of the commit history. You can take a look at all the different commits along with some additional information about it.
+This information included: COMMIT_ID, COMMIT_AUTHOR, COMMIT_MESSAGE etc. which
+makes it easy to identifiy commits.
+
+To dive in deeper into specific commits, `git diff´ is used with a pair of 
+COMMIT_ID's to see the changes between different commits.
+
+Question: How might using version control make you more confident to make
+changes that could break something?
+
+Because introducing a bug that breaks the program can be detected easily and
+we can restore the last working version at any time.
+
+Question: Now that you have your workspace set up, what dou you want to 
+try using Git for?
+
+LaTeX documents and future programming projects. Everything that works.
+
+

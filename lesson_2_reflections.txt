@@ -25,4 +25,8 @@ This concept offers great value because the user won't have to move files
 just to exclude/include them from/to a commit. Also, it encourages the user to
 think about how to structure the commit.
 
+How can you use the staging area to make sure you have one commit
+per logical change?
 
+You can put all the files that are needed for the logical change into the
+staging area and then commit. For the next logical change just include the filesthat are necessary for the next commit.

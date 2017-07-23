@@ -30,3 +30,13 @@ per logical change?
 
 You can put all the files that are needed for the logical change into the
 staging area and then commit. For the next logical change just include the filesthat are necessary for the next commit.
+
+Question: What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+
+For example when you try to try out experimental features for your software.
+Branches help because each branch can be developed seperately without affecting
+the master branch or other branches. Even if some branches lead to a fatal 
+error in the program it doesn't affect the master branch.
+
+

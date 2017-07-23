@@ -39,4 +39,9 @@ Branches help because each branch can be developed seperately without affecting
 the master branch or other branches. Even if some branches lead to a fatal 
 error in the program it doesn't affect the master branch.
 
+Question: How do the diagrams help you visualize the branch structure?
 
+The diagrams clarify on which branches each commit resides, which commits are
+reachable from which branch and it helps to think about how to organize the
+project. With this diagram you can see at a glance how the commit history is
+structured.

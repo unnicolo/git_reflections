@@ -45,3 +45,16 @@ The diagrams clarify on which branches each commit resides, which commits are
 reachable from which branch and it helps to think about how to organize the
 project. With this diagram you can see at a glance how the commit history is
 structured.
+
+Question: What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+When two branches are merged together we they both merge to a single one.
+A new commit is created that has the merged content of the last commits of each
+branch and from this commit every commit in the two branches is reachable.
+
+We represent it in the diagram as seen because the branch that is currently
+checked out remains the main branche that the other branches are being merged
+into.
+
+

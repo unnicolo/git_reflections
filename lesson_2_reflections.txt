@@ -57,4 +57,25 @@ We represent it in the diagram as seen because the branch that is currently
 checked out remains the main branche that the other branches are being merged
 into.
 
+Question: What are the pros and cons of Git's automatic merging vs. always 
+doing it manually?
 
+Pro (automatic merging):
+The developer has less work to do.
+
+Con (automatic merging):
+May result in unreadable code.
+May result in a broken program.
+
+Pro (manual merging):
+It forces the developer to think about which lines of code to include, thus
+creating an extra step where the developer thinks about the architecture of
+the program.
+
+If there are two piece of code that achieve the same goal we can include the
+'best' solution for our purpose. With automatic merging we wouldn't be able to
+choose.
+
+Con (manual merging):
+It is extra work for the developer which might lead to sloppy work if he doesnt
+want to take time for this step.

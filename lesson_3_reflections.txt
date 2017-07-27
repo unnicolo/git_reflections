@@ -1,0 +1,11 @@
+**Udacity course - How to Use Git and GitHub**
+
+**Lesson 3 reflections**
+
+Question: When would you want to use a remote repository rather than keeping all your work local?
+
+Using a remote repository is the prefered way of sharing the results of your work with others. It makes it easy to asynchronously work
+on different tasks without always having to meet in some dark alley just to exchange USB sticks.
+
+Also imagine that you're sitting at a different workstation. With a remote repository you can you get the current state of the project
+even if you are not always working with the same computer.

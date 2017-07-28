@@ -9,3 +9,15 @@ on different tasks without always having to meet in some dark alley just to exch
 
 Also imagine that you're sitting at a different workstation. With a remote repository you can you get the current state of the project
 even if you are not always working with the same computer.
+
+Question: Why might you want to always pull changes manually rather than having
+Git automatically stay up-to-date with your remote repository?
+
+It might be the case that you are working on something on your local machine.
+Then if Git always pulled the latest changes from the remote repository there
+might arise conflicts with the work which has been done locally but not yet
+commited and the pulled files.
+
+Maybe for some reasone someone has pushed some commits which contain errors.
+Then everyone would automatically get the versions with the errors rather than
+having the chance to check if they really want it.

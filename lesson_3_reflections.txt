@@ -2,7 +2,8 @@
 
 **Lesson 3 reflections**
 
-Question: When would you want to use a remote repository rather than keeping all your work local?
+Question: When would you want to use a remote repository rather than
+  keeping all your work local?
 
 Using a remote repository is the prefered way of sharing the results of your work with others. It makes it easy to asynchronously work
 on different tasks without always having to meet in some dark alley just to exchange USB sticks.
@@ -11,7 +12,7 @@ Also imagine that you're sitting at a different workstation. With a remote repos
 even if you are not always working with the same computer.
 
 Question: Why might you want to always pull changes manually rather than having
-Git automatically stay up-to-date with your remote repository?
+  Git automatically stay up-to-date with your remote repository?
 
 It might be the case that you are working on something on your local machine.
 Then if Git always pulled the latest changes from the remote repository there
@@ -21,3 +22,23 @@ commited and the pulled files.
 Maybe for some reasone someone has pushed some commits which contain errors.
 Then everyone would automatically get the versions with the errors rather than
 having the chance to check if they really want it.
+
+Question: Describe the differences between forks, clones and branches.
+  When would you use one instead of the other?
+
+A fork is a special type of cloning that can be just made on the GitHub
+servers. This allows the forker to essentially clone a repository from another
+user into the personal GitHub page while still maintaining a link to the
+original repository. Now, the forker can make changes to the repository as
+liked since changes won't affect the original repo (maybe the owner of the 
+forked repository doesn't want these changes).
+
+While forking and cloning are operations that 'copy' entire repositories,
+a branch is a different path of development in a specific repository. It
+splits the development process into logical seperated parts to help organize
+development.
+
+Summary:
+clone: copy an existing repository - along with all its history
+fork: special type of clone - only on GitHub servers
+branch: a way to organize a repository for development

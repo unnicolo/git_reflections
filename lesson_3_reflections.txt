@@ -42,3 +42,10 @@ Summary:
 clone: copy an existing repository - along with all its history
 fork: special type of clone - only on GitHub servers
 branch: a way to organize a repository for development
+
+Question: What is the benefit of having a copy of the last known state of the
+  remote stored locally?
+
+You always have a reference how the repository looked like before started 
+commiting locally. Otherwise you would have to keep track of the ID of the 
+latest remote commit.

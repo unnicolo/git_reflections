@@ -49,3 +49,23 @@ Question: What is the benefit of having a copy of the last known state of the
 You always have a reference how the repository looked like before started 
 commiting locally. Otherwise you would have to keep track of the ID of the 
 latest remote commit.
+
+Question: How would you collaborate without using Git or GitHub?
+  What would be easier, and what would be harder?
+
+Without using Git or GitHub one could collaborate by using a central place
+where all the files for the project are stored, e.g. Dropbox etc.
+
+harder:
+ - It would be harder to keep track of the project's history. This could be
+   archieved by creating a copy of the project folder everytime a changed
+   is introduced.
+ - Everytime the 'remote' on Dropbox changes everyone would have to copy
+   the entire project onto their machine. This can be a lot of data.
+ - Branching/merging could be done by creating copies of the project's folder 
+   and then renaming them appropriately - a tiresome process.
+
+easier:
+ - there is no need to learn about Git/GitHub
+ - easy to set up - no need to create repositories, link to remotes etc.
+   just share the link to the Dropbox 

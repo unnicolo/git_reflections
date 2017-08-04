@@ -69,3 +69,17 @@ easier:
  - there is no need to learn about Git/GitHub
  - easy to set up - no need to create repositories, link to remotes etc.
    just share the link to the Dropbox 
+
+Question: When would you want to make changes in a seperate branch rather
+  than directly in master?
+  What benefit does each approach have?
+
+When collaborating with others on GitHub and we have a pull request pending
+this is the only possibility for others to review the changes before they
+get merged into the repository. 
+Also making changes in a separate branch is more advisable if the user
+is not sure if the changes are correct.
+
+Others can review the changes and give their opinion about it. 
+Also, given that kind of effort, the user may be more likely to think about
+the changes he makes.
